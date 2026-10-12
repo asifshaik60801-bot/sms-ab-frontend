@@ -1,6 +1,6 @@
 import { useState } from "react";
-import axios from "axios";
 import "./Login.css";
+import api from "./api.js";
 
 function Login({ onLogin, onShowRegister }) {
   const [email, setEmail] = useState("");
@@ -15,8 +15,8 @@ function Login({ onLogin, onShowRegister }) {
     setLoading(true);
 
     try {
-      const response = await axios.post(
-        "http://localhost:8081/api/auth/login",
+      const response = await api.post(
+        "/api/auth/login",
         {
           email,
           password,
