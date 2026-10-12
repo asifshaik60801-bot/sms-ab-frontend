@@ -1,0 +1,158 @@
+.login-page {
+  min-height: 100vh;
+  background: #070b14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.login-logo {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  border-radius: 18px;
+  background: #0d1422;
+  border: 1px solid #202b3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.login-container h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  color: #8491a7;
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+
+.login-card {
+  background: #0d1422;
+  border: 1px solid #202b3d;
+  border-radius: 14px;
+  padding: 30px;
+  text-align: left;
+}
+
+.login-card h2 {
+  font-size: 22px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.login-description {
+  color: #64748b;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  background: #070b14;
+  border: 1px solid #263449;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+}
+
+.form-group input::placeholder {
+  color: #64748b;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  background: #2563eb;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #1d4ed8;
+}
+
+.login-button:disabled {
+  background: #334155;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #450a0a;
+  border: 1px solid #7f1d1d;
+  color: #fecaca;
+  padding: 11px;
+  border-radius: 7px;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 22px;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.register-link button {
+  background: none;
+  border: none;
+  color: #60a5fa;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-link button:hover {
+  text-decoration: underline;
+}
+
+.security-text {
+  margin-top: 20px;
+  color: #475569;
+  font-size: 12px;
+}
+.success-message {
+  background: #052e16;
+  border: 1px solid #166534;
+  color: #86efac;
+  padding: 11px;
+  border-radius: 7px;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
